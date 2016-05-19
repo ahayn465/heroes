@@ -1,0 +1,292 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nvm' ]
+2 info using npm@3.8.9
+3 info using node@v4.4.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData nvm
+8 silly fetchNamedPackageData nvm
+9 silly mapToRegistry name nvm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'nvm',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'nvm',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/nvm
+14 verbose request uri https://registry.npmjs.org/nvm
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:46:23 AM
+17 verbose request id 50f286a6601e03a2
+18 http request GET https://registry.npmjs.org/nvm
+19 http 200 https://registry.npmjs.org/nvm
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"53F7NSUPGSUCMPU45LC2QRPKE"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '2247',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Wed, 18 May 2016 17:46:22 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1463593582.920655,VS0,VE48',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"53F7NSUPGSUCMPU45LC2QRPKE"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '2247',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Wed, 18 May 2016 17:46:22 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-dfw1820-DFW',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1463593582.920655,VS0,VE48',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving nvm to /Users/amanda/.npm/registry.npmjs.org/nvm/.cache.json
+23 verbose correctMkdir /Users/amanda/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule nvm@0.0.3 checking installable status
+37 silly cache add args [ 'nvm', null ]
+38 verbose cache add spec nvm
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'nvm',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'nvm',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed nvm@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for nvm
+42 info addNameTag [ 'nvm', 'latest' ]
+43 silly mapToRegistry name nvm
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'nvm',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'nvm',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/nvm
+48 verbose addNameTag registry:https://registry.npmjs.org/nvm not in flight; fetching
+49 verbose get https://registry.npmjs.org/nvm not expired, no request
+50 silly addNameTag next cb for nvm with tag latest
+51 silly addNamed nvm@0.0.3
+52 verbose addNamed "0.0.3" is a plain semver version for nvm
+53 warn deprecated nvm@0.0.3: This is NOT the correct nvm. Visit http://nvm.sh and use the curl command to install it.
+54 silly mapToRegistry name nvm
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'nvm',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'nvm',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/nvm
+59 verbose addRemoteTarball https://registry.npmjs.org/nvm/-/nvm-0.0.3.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/nvm/-/nvm-0.0.3.tgz',
+60 verbose addRemoteTarball   '1f39d2dfd16bf661534a3f7145134f4bbbef6da4' ]
+61 info retry fetch attempt 1 at 11:46:24 AM
+62 info attempt registry request try #1 at 11:46:24 AM
+63 http fetch GET https://registry.npmjs.org/nvm/-/nvm-0.0.3.tgz
+64 http fetch 200 https://registry.npmjs.org/nvm/-/nvm-0.0.3.tgz
+65 silly fetchAndShaCheck shasum 1f39d2dfd16bf661534a3f7145134f4bbbef6da4
+66 verbose addTmpTarball /var/folders/f3/58_vlq5s1vbfgvhvfgcrzcbh0000gn/T/npm-32549-337be912/registry.npmjs.org/nvm/-/nvm-0.0.3.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for nvm@0.0.3
+68 verbose correctMkdir /Users/amanda/.npm correctMkdir not in flight; initializing
+69 silly cache afterAdd nvm@0.0.3
+70 verbose afterAdd /Users/amanda/.npm/nvm/0.0.3/package/package.json not in flight; writing
+71 verbose correctMkdir /Users/amanda/.npm correctMkdir not in flight; initializing
+72 verbose afterAdd /Users/amanda/.npm/nvm/0.0.3/package/package.json written
+73 silly fetchNamedPackageData mkdirp
+74 silly mapToRegistry name mkdirp
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'mkdirp',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   name: 'mkdirp',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+79 verbose request uri https://registry.npmjs.org/mkdirp
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 11:46:24 AM
+82 verbose etag "COMYWK288SWWU1SDDGALM0YCT"
+83 http request GET https://registry.npmjs.org/mkdirp
+84 http 304 https://registry.npmjs.org/mkdirp
+85 verbose headers { date: 'Wed, 18 May 2016 17:46:23 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   etag: '"COMYWK288SWWU1SDDGALM0YCT"',
+85 verbose headers   age: '160',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '9',
+85 verbose headers   'x-timer': 'S1463593583.221901,VS0,VE0',
+85 verbose headers   vary: 'Accept-Encoding' }
+86 silly get cb [ 304,
+86 silly get   { date: 'Wed, 18 May 2016 17:46:23 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     etag: '"COMYWK288SWWU1SDDGALM0YCT"',
+86 silly get     age: '160',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-dfw1820-DFW',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '9',
+86 silly get     'x-timer': 'S1463593583.221901,VS0,VE0',
+86 silly get     vary: 'Accept-Encoding' } ]
+87 verbose etag https://registry.npmjs.org/mkdirp from cache
+88 verbose get saving mkdirp to /Users/amanda/.npm/registry.npmjs.org/mkdirp/.cache.json
+89 verbose correctMkdir /Users/amanda/.npm correctMkdir not in flight; initializing
+90 silly resolveWithNewModule mkdirp@0.3.5 checking installable status
+91 silly cache add args [ 'mkdirp@~0.3.3', null ]
+92 verbose cache add spec mkdirp@~0.3.3
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'mkdirp@~0.3.3',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'mkdirp',
+93 silly cache add   rawSpec: '~0.3.3',
+93 silly cache add   spec: '>=0.3.3 <0.4.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed mkdirp@>=0.3.3 <0.4.0
+95 verbose addNamed ">=0.3.3 <0.4.0" is a valid semver range for mkdirp
+96 silly addNameRange { name: 'mkdirp', range: '>=0.3.3 <0.4.0', hasData: false }
+97 silly mapToRegistry name mkdirp
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'mkdirp',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   name: 'mkdirp',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+102 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+103 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+104 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.3 <0.4.0', hasData: true }
+105 silly addNameRange versions [ 'mkdirp',
+105 silly addNameRange   [ '0.0.1',
+105 silly addNameRange     '0.0.2',
+105 silly addNameRange     '0.0.3',
+105 silly addNameRange     '0.0.4',
+105 silly addNameRange     '0.0.5',
+105 silly addNameRange     '0.0.6',
+105 silly addNameRange     '0.0.7',
+105 silly addNameRange     '0.1.0',
+105 silly addNameRange     '0.2.0',
+105 silly addNameRange     '0.2.1',
+105 silly addNameRange     '0.2.2',
+105 silly addNameRange     '0.3.0',
+105 silly addNameRange     '0.3.1',
+105 silly addNameRange     '0.3.2',
+105 silly addNameRange     '0.3.3',
+105 silly addNameRange     '0.3.4',
+105 silly addNameRange     '0.3.5',
+105 silly addNameRange     '0.4.0',
+105 silly addNameRange     '0.4.1',
+105 silly addNameRange     '0.4.2',
+105 silly addNameRange     '0.5.0',
+105 silly addNameRange     '0.5.1' ] ]
+106 silly addNamed mkdirp@0.3.5
+107 verbose addNamed "0.3.5" is a plain semver version for mkdirp
+108 silly mapToRegistry name mkdirp
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: 'mkdirp',
+111 silly mapToRegistry   scope: null,
+111 silly mapToRegistry   name: 'mkdirp',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+113 verbose addRemoteTarball https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz not in flight; adding
+114 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+114 verbose addRemoteTarball   'de3e5f8961c88c787ee1368df849ac4413eca8d7' ]
+115 info retry fetch attempt 1 at 11:46:24 AM
+116 info attempt registry request try #1 at 11:46:24 AM
+117 http fetch GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+118 http fetch 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+119 silly fetchAndShaCheck shasum de3e5f8961c88c787ee1368df849ac4413eca8d7
+120 verbose addTmpTarball /var/folders/f3/58_vlq5s1vbfgvhvfgcrzcbh0000gn/T/npm-32549-337be912/registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz not in flight; adding
+121 verbose addTmpTarball already have metadata; skipping unpack for mkdirp@0.3.5
+122 verbose correctMkdir /Users/amanda/.npm correctMkdir not in flight; initializing
+123 silly cache afterAdd mkdirp@0.3.5
+124 verbose afterAdd /Users/amanda/.npm/mkdirp/0.3.5/package/package.json not in flight; writing
+125 verbose correctMkdir /Users/amanda/.npm correctMkdir not in flight; initializing
+126 verbose afterAdd /Users/amanda/.npm/mkdirp/0.3.5/package/package.json written
+127 silly loadAllDepsIntoIdealTree Finishing
+128 silly idealTree:prePrune lib
+128 silly idealTree:prePrune `-- nvm@0.0.3
+128 silly idealTree:prePrune   `-- mkdirp@0.3.5
+129 silly loadIdealTree Finishing
+130 silly currentTree lib
+131 silly idealTree lib
+131 silly idealTree `-- nvm@0.0.3
+131 silly idealTree   `-- mkdirp@0.3.5
+132 silly generateActionsToTake Starting
+133 silly install generateActionsToTake
+134 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+135 silly rollbackFailedOptional Starting
+136 silly rollbackFailedOptional Finishing
+137 silly runTopLevelLifecycles Starting
+138 silly runTopLevelLifecycles Finishing
+139 silly install printInstalled
+140 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+140 verbose stack     at Error (native)
+141 verbose cwd /Users/amanda/WebstormProjects/Angular2-QuickStart/angular2-quickstart/app
+142 error Darwin 15.4.0
+143 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "nvm"
+144 error node v4.4.3
+145 error npm  v3.8.9
+146 error path /usr/local/lib/node_modules
+147 error code EACCES
+148 error errno -13
+149 error syscall access
+150 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+150 error     at Error (native)
+150 error  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules']
+150 error   errno: -13,
+150 error   code: 'EACCES',
+150 error   syscall: 'access',
+150 error   path: '/usr/local/lib/node_modules' }
+151 error Please try running this command again as root/Administrator.
+152 verbose exit [ -13, true ]
